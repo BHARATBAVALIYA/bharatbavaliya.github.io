@@ -1,4 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharat Bavaliya - Surat No 1 Loan Expert</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-sans">
+
+<div class="bg-blue-900 text-white p-3 flex justify-between">
+<b>BHARAT BAVALIYA</b><span>+91 9979269190</span>
+</div>
+
+<div class="bg-blue-800 text-white text-center p-10">
+<h1 class="text-4xl font-bold">HOME LOAN & ALL TYPES PROPERTY LOAN AT LOWEST RATE</h1>
+<p class="mt-3">Surat's No 1 Loan Consultant - Fast Approval in 24 Hrs</p>
+<a href="https://wa.me/919979269190?text=Hello%20Bharat%20Bhai,%20I%20want%20Free%20Consultation" class="inline-block mt-5 bg-green-500 text-white px-8 py-3 rounded-full font-bold">WhatsApp Now - Free Consultation</a>
+</div>
+
+<div class="bg-gray-100 p-6">
+<div class="bg-white p-5 rounded-xl shadow-lg max-w-md mx-auto">
+<h2 class="font-bold text-xl text-center mb-4">Quick Loan Application</h2>
+<form onsubmit="sendToWhatsApp(event)">
+<input type="text" id="name" placeholder="Full Name" required class="w-full p-3 mb-3 border rounded">
+<input type="tel" id="mobile" placeholder="Mobile Number" required class="w-full p-3 mb-3 border rounded">
+<select id="loantype" required class="w-full p-3 mb-3 border rounded">
+<option value="">Select Loan Type</option>
+<option>Home Loan</option>
+<option>Shop Loan - 20 Lakhs</option>
+<option>Business Loan</option>
+<option>LAP</option>
+</select>
+<input type="text" id="amount" placeholder="Loan Amount" required class="w-full p-3 mb-3 border rounded">
+<input type="text" id="city" placeholder="City" required class="w-full p-3 mb-3 border rounded">
+<button type="submit" class="w-full bg-green-600 text-white p-3 rounded font-bold">Get Loan Assistance →</button>
+</form>
+</div>
+</div>
+
+<script>
+function sendToWhatsApp(e){
+e.preventDefault();
+var n=document.getElementById('name').value;
+var m=document.getElementById('mobile').value;
+var l=document.getElementById('loantype').value;
+var a=document.getElementById('amount').value;
+var c=document.getElementById('city').value;
+var msg="*NEW LEAD*%0AName: "+n+"%0AMobile: "+m+"%0ALoan: "+l+"%0AAmount: "+a+"%0ACity: "+c;
+window.open("https://wa.me/919979269190?text="+msg,"_blank");
+}
+</script>
+</body>
+</html>
 <html>
 <head>
 <meta charset="UTF-8">
